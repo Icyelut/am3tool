@@ -16,12 +16,14 @@ positional arguments:
   file        the raw am3 card dump
 
 optional arguments:
-  -h, --help  show this help message and exit````
+  -h, --help  show this help message and exit
+```
   
-  ## Output
-  The original image file will be backed up in the same directory as `[file].original`
-  `[file]` is now the generalized version of the card dump.
-  A folder named `out` will be created in the same directory as the image file that contains 
-  1. The `*.AM3` files
-  2. `dump_info.txt` which contains the template No Intro submission post and file hashes
+## Output
+The original image file will be backed up in the same directory as `[file].original`
+`[file]` is now the generalized version of the card dump.
+
+In addition, a folder named `out` will be created in the same directory as the image file that contains:
+1. The `*.AM3` files
+2. `dump_info.txt` which contains the template No Intro submission post and file hashes
   
